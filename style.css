@@ -15,7 +15,7 @@
     width: 50%;
 }
 .header-text{
-    padding: 200px;
+    padding: 250px;
 }
 .header-text h1{
     font-size: 50px;
@@ -103,6 +103,22 @@
 .gradient{
     padding: 200px;
 }
+ /* skill section style heare  */
+
+ .skill-section{
+    display: flex;
+    padding: 200px;
+ }
+ .skill{
+    width: 300px;
+    box-shadow: 10px 10px 10px gray;
+    margin: 20px;
+    border: 1px solid gray;
+    text-align: center;
+ }
+ .skill img{
+    height: 100px;
+ }
 
 /* footer container style heare */
 
