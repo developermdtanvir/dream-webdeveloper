@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    font-family: Roboto;
+}
+ /* header section style here  */
+.header-container{
+    height: 100vh;
+    background-image: url('./images/banner/banner1.png');
+  
+}
+.header-text-area{
+    display: flex;
+    float: right;
+}
+.header-text-area div{
+    width: 50%;
+}
+.header-text{
+    padding: 200px;
+}
+.header-text h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.header-text p {
+    color: gray;
+}
+.header-text button{
+    width: 160px;
+    height: 64px;
+    border: none;
+    border-radius: 5px;
+    background-color:orange;
+    color: white;
+    font-size: medium;
+    cursor: pointer;
+    margin-top: 20px;
+}
+ /* About text heare  */
+.about{
+    height: 100vh;
+    display: flex;
+    padding: 100px;
+}
+.about-taxt{
+    margin-top: 250px;
+    padding-left: 50px;
+}
+.about-taxt p {
+    color: gray;
+    margin-top: 20px;
+}
+.text-check{
+    padding-top: 15px;
+}
+.text-check i {
+    color: green;
+}
+#my-plan{
+    text-align: center;
+}
+
+/* plane section style heare  */
+
+.plan-items{
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+    justify-items: center;
+}
+.plan-items p{
+    color: gray;
+    margin-top: 10px;
+}
+.plan-items h1{
+    margin-top: 10px;
+}
+.plan-gradient{
+    background: #eb01a5;
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(57, 119, 75, 0.5)),
+    url('./images/watch.png');
+    height:300px;
+    border-radius: 5px;
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.plan-gradient h1{
+    padding-left: 20px;
+    color: white;
+    margin-top: 30px;
+}
+.plan-gradient button{
+    padding: 15px 18px;
+    display: block;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 60px;
+}
+.gradient{
+    padding: 200px;
+}
+
+/* footer container style heare */
+
+.footer-container{
+    background-color: black;
+    height: 577px;
+    color: white;
+    display: flex;
+    padding: 200px;
+}
+.footer-text{
+    width:500px;
+    margin: 100px;
+} 
+.footer-text p {
+    margin-top: 30px;
+}
+.social-icons{
+    display: flex;
+}
+.social-icons i {
+    margin-left: 20px;
+    font-size: 50px;
+}
+#facebook{
+    color: #4267B2;
+}
+#twitter{
+    color:blue;
+}
+#youtube{
+    color: red;
+}
+.footer-text > input, button{
+    margin-top: 10px;
+}
+.footer-text button{
+    padding: 15px 18px;
+    display: block;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
