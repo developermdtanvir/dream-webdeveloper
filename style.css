@@ -6,7 +6,6 @@
 .header-container{
     height: 100vh;
     background-image: url('./images/banner/banner1.png');
-  
 }
 .header-text-area{
     display: flex;
@@ -78,28 +77,28 @@
 .plan-gradient{
     background: #eb01a5;
     background-image:
-    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(57, 119, 75, 0.5)),
+    linear-gradient(to bottom, rgba(42, 184, 42, 0.46), rgba(57, 119, 75, 0.5)),
     url('./images/watch.png');
     height:300px;
     border-radius: 5px;
-    display:flex;
-    justify-content:flex-start;
     align-items: center;
 }
 .plan-gradient h1{
     padding-left: 20px;
+    padding-top: 50px;
     color: white;
     margin-top: 30px;
+    font-size: 2.5rem;
 }
 .plan-gradient button{
     padding: 15px 18px;
-    display: block;
     border: none;
     border-radius: 5px;
     font-size: 20px;
     font-weight: 700;
     cursor: pointer;
     margin-top: 60px;
+    margin-left: 30px;
 }
 .gradient{
     padding: 200px;
@@ -139,6 +138,14 @@
 }
 .footer-text > input, button{
     margin-top: 10px;
+}
+.footer-text input {
+    padding: 20px 60px;
+    background-color: black;
+}
+.footer-text ::placeholder{
+    font-size: medium;
+    color: white;
 }
 .footer-text button{
     padding: 15px 18px;
